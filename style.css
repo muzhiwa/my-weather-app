@@ -19,10 +19,10 @@ body {
     color: rgba(85, 76, 129, 0.4);
     font-size: 18px;
     padding: 20px;
-    width: 75%;
+    width: 80%;
     border-radius: 5px;
     border: none;
-    padding: 20px;
+    
   }
   .search-button {
     margin-left: 5px;
@@ -50,24 +50,26 @@ body {
     color: #ff347f;
   }
 
-  weather-app-temperature-container {
+  .weather-app-temperature-container {
     display: flex;
+    align-items: center;
+    margin-top: -30px;
   }
   
-  .weather-app-icon {
-    width: 88px;
-    height: 88px;
+  #icon {
+    font-size: 48px;
+    margin-right: 5px;
   }
   
   .weather-app-temperature {
-    font-size: 88px;
-    line-height: 88px;
+    font-size: 80px;
+    line-height: 80px;
     font-weight: bold;
   }
   
-  .weatehr-app-unit {
-    margin-top: 6px;
-    font-size: 28px;
+  .weather-app-unit {
+    margin-top: -30px;
+    font-size: 30px;
   }
   footer {
     border-top: 1px solid #f7f7f7;
