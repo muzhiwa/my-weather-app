@@ -4,8 +4,8 @@ body {
   }
   .weather-app {
     background: #ffffff;
-    margin: 50px auto;
-    padding: 40px;
+    margin: 40px auto;
+    padding: 30px;
     box-shadow: 0 30px 50px rgba(81, 65, 120, 0.08);
     max-width: 550px;
     border-radius: 15px;
@@ -25,7 +25,7 @@ body {
     
   }
   .search-button {
-    margin-left: 5px;
+    margin-left: 6px;
     background-color: #fc6b6b;
     border: none;
     padding: 20px;
@@ -54,11 +54,13 @@ body {
     display: flex;
     align-items: center;
     margin-top: -30px;
+    margin-right: 30px ;
   }
   
   #icon {
-    font-size: 48px;
-    margin-right: 5px;
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
   }
   
   .weather-app-temperature {
@@ -74,9 +76,9 @@ body {
   footer {
     border-top: 1px solid #f7f7f7;
     text-align: center;
-    padding-top: 30 px;
-    color: #9ba6a5;
-    font-size: 18px;
+    padding-top: 20px;
+    color: #292a2a;
+    font-size: 16px;
   }
   a {
     color: #3d6cb9;
