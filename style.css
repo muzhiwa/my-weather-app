@@ -49,12 +49,25 @@ body {
   .current-weather strong {
     color: #ff347f;
   }
-  #temperature {
-    position: relative;
-    font-size: 50px;
-    margin-right: 12px;
-    margin-top: 70px;
+
+  weather-app-temperature-container {
+    display: flex;
+  }
+  
+  .weather-app-icon {
+    width: 88px;
+    height: 88px;
+  }
+  
+  .weather-app-temperature {
+    font-size: 88px;
+    line-height: 88px;
     font-weight: bold;
+  }
+  
+  .weatehr-app-unit {
+    margin-top: 6px;
+    font-size: 28px;
   }
   footer {
     border-top: 1px solid #f7f7f7;
